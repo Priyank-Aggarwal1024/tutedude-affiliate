@@ -1,0 +1,138 @@
+.affiliate-faq {
+  display: flex;
+  width: 100%;
+  padding: 34.664px 150.239px 52.884px 150.25px;
+  justify-content: center;
+  align-items: start;
+  margin: 122px 0;
+  gap: 50px;
+}
+.affiliate-faq-left,
+.affiliate-faq-right {
+  width: 100%;
+}
+.affiliate-faq-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17.171px;
+}
+.affiliate-faq-head {
+  color: #000;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124.073%; /* 59.555px */
+}
+.affiliate-faq-text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  opacity: 0.7;
+}
+.affiliate-faq-right {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.faq-open-minus {
+  width: 15.024px;
+  height: 1.502px;
+  flex-shrink: 0;
+  background: #000;
+}
+.affiliate-faq-div {
+  padding: 10px 0;
+}
+.affiliate-faq-ques-div {
+  cursor: pointer;
+  padding: 0 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.affiliate-faq-ques {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.affiliate-faq-ans {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  opacity: 0.7;
+}
+
+@media (width<1280px) {
+  .affiliate-faq {
+    padding: 14.664px 96px 22.884px;
+  }
+}
+@media (width<1024px) {
+  .affiliate-faq {
+    padding: 0px 64px 0px;
+  }
+  .affiliate-faq {
+    flex-direction: column;
+    gap: 46px;
+  }
+  .affiliate-faq-left {
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .affiliate-faq-text {
+    text-align: center;
+  }
+  .affiliate-faq-head {
+    text-align: center;
+    font-size: 42px;
+  }
+  .affiliate-faq-right {
+    gap: 24px;
+  }
+}
+@media (width<780px) {
+  .affiliate-faq-head {
+    font-size: 36px;
+  }
+  .affiliate-faq {
+    padding: 0px 32px 0px;
+    margin: 100px 0;
+  }
+}
+@media (width<580px) {
+  .affiliate-faq {
+    padding: 0px 16px 0px;
+    margin: 80px 0;
+  }
+  .affiliate-faq-head {
+    font-size: 30px;
+  }
+  .affiliate-faq-text {
+    font-size: 14px;
+  }
+  .affiliate-faq-ques {
+    font-size: 16px;
+  }
+  .affiliate-faq-ans {
+    font-size: 14px;
+  }
+  .affiliate-faq-right {
+    gap: 16px;
+  }
+}
+@media (width<400px) {
+}

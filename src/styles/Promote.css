@@ -1,0 +1,108 @@
+.affiliate-promote {
+  padding: 85px 120px 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.affiliate-promote-head {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 54px */
+}
+.affiliate-promote-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  align-self: stretch;
+  max-width: 707px;
+  width: 100%;
+  margin: 0 auto;
+}
+.affiliate-promote-card {
+  display: flex;
+  width: 100%;
+  padding: 18px 24px;
+  align-items: center;
+  gap: 30px;
+  border-radius: 21.652px;
+  box-shadow: 0px 5.413px 16.645px 0px rgba(0, 0, 0, 0.04);
+}
+.affiliate-promote-card-head {
+  color: #000;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 147%; /* 41.16px */
+}
+.affiliate-promote-card-para {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 151%; /* 30.2px */
+  padding-top: 12px;
+}
+@media (width<1024px) {
+  .affiliate-promote-head {
+    font-size: 40px;
+  }
+  .affiliate-promote {
+    padding: 65px 64px 55px;
+  }
+}
+@media (width<780px) {
+  .affiliate-promote-head {
+    font-size: 35px;
+  }
+  .affiliate-promote-card-head {
+    font-size: 24px;
+  }
+  .affiliate-promote-card-para {
+    font-size: 17px;
+  }
+  .affiliate-promote {
+    padding: 55px 32px 50px;
+  }
+}
+@media (width<580px) {
+  .affiliate-promote-main {
+    gap: 24px;
+  }
+  .affiliate-promote {
+    padding: 50px 16px 45px;
+    gap: 36px;
+  }
+  .affiliate-promote-head {
+    font-size: 30px;
+  }
+  .affiliate-promote-card-head {
+    font-size: 20px;
+  }
+  .affiliate-promote-card-para {
+    font-size: 14px;
+    padding-top: 8px;
+  }
+  .affiliate-promote-card {
+    padding: 0px 10px;
+    align-items: flex-start;
+    gap: 16px;
+    box-shadow: none;
+  }
+  .affiliate-promote-card-left > img {
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+  }
+}
+@media (width<400px) {
+}

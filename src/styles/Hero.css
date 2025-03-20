@@ -1,0 +1,222 @@
+.affiliate-hero {
+  width: 100%;
+  background: rgba(255, 242, 255, 0.73);
+  padding: 75px 120px 108px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ahero-image {
+  max-width: 557.508px;
+  max-height: 408.067px;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
+.ahero-left {
+  display: flex;
+  max-width: 510px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+}
+.aherol-top {
+  display: flex;
+  height: 37px;
+  padding: 10px 21px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  border-radius: 15px;
+  border: 1px solid rgba(128, 0, 128, 0.33);
+}
+.aherol-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  align-self: stretch;
+  width: 100%;
+}
+.aherolb-headingspan {
+  color: #902190;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.aherolb-head {
+  color: #000;
+  font-family: Poppins;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 66px */
+}
+.ahero-right {
+  max-width: 555px;
+  width: 100%;
+}
+
+.aherolb-join {
+  display: flex;
+  max-width: 313px;
+  width: 100%;
+  height: 60px;
+  padding: 20.081px 71.398px;
+  justify-content: center;
+  align-items: center;
+  gap: 11.156px;
+  border-radius: 12px;
+  background: #902190;
+  box-shadow: 0px 8.925px 35.699px 0px rgba(86, 88, 85, 0.26);
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26.774px; /* 148.746% */
+}
+.affliate-hero-stats-outer {
+  display: flex;
+  justify-content: center;
+  margin-top: -70px;
+  padding: 0 16px;
+}
+.affliate-hero-stats {
+  display: inline-flex;
+  padding: 39px 102.246px 39.5px 102px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1076px;
+  width: 100%;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 4px 26.7px 0px rgba(0, 0, 0, 0.09);
+}
+.aherostats-card {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.aherostats-card-no {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 41.738px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 50.085px */
+}
+.aherostats-card-name {
+  color: rgba(0, 0, 0, 0.51);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: 0.64px;
+}
+@media (width<1024px) {
+  .affiliate-hero {
+    padding: 55px 60px 108px;
+  }
+  .aherolb-head {
+    font-size: 45px;
+  }
+  .affliate-hero-stats {
+    padding: 30px 60px;
+  }
+}
+@media (width<780px) {
+  .affiliate-hero {
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+  .ahero-left {
+    width: 100%;
+    align-items: center;
+  }
+  .aherol-bottom {
+    align-items: center;
+    gap: 12px;
+  }
+  .aherolb-head {
+    max-width: unset;
+    text-align: center;
+  }
+  .aherol-top {
+    font-size: 16px;
+    padding: 6px 12px;
+    height: 34px;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 0, 128, 0.33);
+  }
+  .aherolb-join {
+    max-width: 278px;
+    padding: 13px 71.398px;
+    border-radius: 12px;
+    box-shadow: 0px 8.925px 35.699px 0px rgba(86, 88, 85, 0.26);
+    height: 56px;
+    font-size: 16px;
+  }
+  .aherostats-card-no {
+    font-size: 32px;
+  }
+  .aherostats-card-name {
+    font-size: 13px;
+  }
+  .aherostats-card {
+    gap: 6px;
+  }
+  .affliate-hero-stats {
+    padding: 23px 40px;
+  }
+}
+@media (width<580px) {
+  .affiliate-hero {
+    padding: 37px 16px 120px;
+  }
+  .aherolb-head {
+    font-size: 35px;
+  }
+  .aherostats-card-no {
+    font-size: 22px;
+  }
+  .aherostats-card-name {
+    font-size: 10px;
+  }
+  .affliate-hero-stats {
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0px 4px 26.7px 0px rgba(0, 0, 0, 0.09);
+  }
+  .aherostats-svg {
+    height: 44.81px;
+    width: 2px;
+  }
+  .affliate-hero-stats {
+    padding: 15px 20px;
+  }
+  .affliate-hero-stats-outer {
+    margin-top: -64px;
+  }
+}
+@media (width<360px) {
+  .affliate-hero-stats-outer {
+    padding: 0;
+  }
+  .affliate-hero-stats {
+    border-radius: 0;
+  }
+}
